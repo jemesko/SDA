@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+._*
+
+# C compiler output
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+
+# Executables produced by the current labs
+Lab*_variant*_method[0-9]
+
+# Build directories and generated CMake files
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Debug symbols and coverage reports
+*.dSYM/
+*.pdb
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# Editor temporary files
+*.swp
+*.swo
+*~
